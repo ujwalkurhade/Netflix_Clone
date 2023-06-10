@@ -19,6 +19,8 @@ body {
   height: 480px;
   padding: 6px 10px;
 }
+
+/* navbar */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -57,6 +59,37 @@ body {
   color: whitesmoke;
   border: none;
   border-radius: 6px;
+}
+
+/* hero text */
+.heroText {
+  padding: 0;
+  margin-top: -20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroText h2 {
+  font-size: 36px;
+  text-align: center;
+}
+.heroText p {
+  margin: 10px 10px;
+  font-size: 21px;
+  align-items: center;
+}
+.heroText input {
+  width: 80%;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.779);
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 /* startbtn */
 .startbtn {
