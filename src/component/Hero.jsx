@@ -6,7 +6,7 @@ function Hero() {
     <div className='Hero'>
     <div className='nav'>
         <img src={logo} className='logo'></img>
-        <div>
+        <div className='rightnav'>
             <div className='optionBtn'>    
             <label>✒️</label>
                 <select>
@@ -15,7 +15,6 @@ function Hero() {
                 </select>
             </div>
             <button className='signIn'>Sign In</button>
-
         </div>
     </div>
 
