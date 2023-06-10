@@ -1,8 +1,13 @@
 import React from 'react'
+import './index.css'
+import Hero from './component/Hero'
+
 
 function App() {
   return (
-    <div>App</div>
+    <>
+    <Hero/>
+    </>
   )
 }
 

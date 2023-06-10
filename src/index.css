@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(0, 0, 0, 0.911);
+  color: whitesmoke;
+}
+
+/* Hero */
+.Hero {
+  background-image: url("./assets/Images/HeroBG.jpg");
+  background-color: rgba(0, 0, 0, 0.301);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 500px;
+}
+
+/* startbtn */
+.startbtn {
+  width: 155px;
+  height: 45px;
+  background: red;
+  font-size: 20px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+}
