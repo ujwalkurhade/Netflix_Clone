@@ -10,14 +10,16 @@ body {
 
 /* Hero */
 .Hero {
+  background-color: black;
   background-image: url("./assets/Images/HeroBG.jpg");
-  background-color: rgba(0, 0, 0, 0.301);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: auto;
   height: 480px;
   padding: 6px 10px;
+  margin-bottom: -12px;
+  filter: blur(100% rgba(0, 0, 0, 0.811));
 }
 
 /* navbar */
@@ -90,6 +92,27 @@ body {
   color: whitesmoke;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+/* Feature */
+.feture {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 25px;
+  background-color: black;
+}
+.feture h2 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+.feture p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.feture img {
+  width: 22rem;
+  margin-top: 4rem;
 }
 /* startbtn */
 .startbtn {
