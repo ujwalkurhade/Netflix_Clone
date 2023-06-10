@@ -16,9 +16,48 @@ body {
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 500px;
+  height: 480px;
+  padding: 6px 10px;
 }
-
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 130px;
+}
+.rightnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  gap: 10px;
+}
+.optionBtn {
+  background-color: rgba(0, 0, 0, 0.895);
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+}
+.optionBtn select {
+  width: 90px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: whitesmoke;
+}
+.signIn {
+  width: 90px;
+  height: 35px;
+  background: red;
+  font-size: 12px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+}
 /* startbtn */
 .startbtn {
   width: 155px;
