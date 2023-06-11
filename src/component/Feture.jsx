@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import f1 from "../assets/Images/tv.png";
-// import data1 from "../data.js";
 import data from "../data.json";
 
 function Feture() {
@@ -13,7 +11,7 @@ function Feture() {
     <div>
       {data1.map((e) => {
         return (
-          <div className="feture">
+          <div className="feture" key={e.id}>
             <h2> {e.h2}</h2>
             <p>{e.p}</p>
             <img src={e.img}></img>

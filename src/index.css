@@ -20,6 +20,7 @@ body {
   padding: 6px 10px;
   margin-bottom: -12px;
   filter: blur(100% rgba(0, 0, 0, 0.811));
+  margin-bottom: 10px;
 }
 
 /* navbar */
@@ -99,7 +100,7 @@ body {
   width: 100%;
   text-align: center;
   padding: 20px;
-  margin-top: 25px;
+  margin-top: 10px;
   background-color: black;
 }
 .feture h2 {
