@@ -14,6 +14,7 @@ function Qustionsection() {
     <div className="qustion">
       <h2>Frequently Asked Questions</h2>
       {data2.map((e) => {
+        console.log(e);
         return (
           <div className="accordion" key={e.id}>
             <div className=" acoridio_header">
