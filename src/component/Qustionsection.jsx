@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import data from "../data.json";
+import SatartBtn from "./SatartBtn";
 function Qustionsection() {
   const [open, setOpen] = useState(false);
   const [data2, setdata2] = useState([]);
@@ -16,10 +17,14 @@ function Qustionsection() {
       {data2.map((e) => {
         console.log(e);
         return (
-          <div className="accordion" key={e.id}>
-            <div className=" acoridio_header">
-              <h2 onClick={handlClick}>{e.title}</h2>
-              <p>😊</p>
+          <div className="accordion">
+            <div
+              className=" acoridio_header"
+              onClick={handlClick}
+              key={e.id}
+            >
+              <h2>{e.title}</h2>
+              {open ? <p>× </p> : <p>+</p>}
             </div>
 
             {open ? (
@@ -30,11 +35,16 @@ function Qustionsection() {
           </div>
         );
       })}
-
-      <p>
-        Ready to watch? Enter your email to create or
-        restart your membership.
-      </p>
+      <div className="text">
+        <p className="para">
+          Ready to watch? Enter your email to create or
+          restart your membership.
+        </p>
+        <div className="email">
+          <input placeholder="Email address"></input>
+          <SatartBtn />
+        </div>
+      </div>
     </div>
   );
 }

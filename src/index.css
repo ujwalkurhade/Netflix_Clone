@@ -92,13 +92,15 @@ body {
   font-size: 21px;
   align-items: center;
 }
-.heroText input {
+.heroText input,
+input {
   width: 80%;
   height: 45px;
   background-color: rgba(0, 0, 0, 0.779);
   color: whitesmoke;
   font-size: 20px;
   margin-bottom: 10px;
+  border: none;
 }
 
 /* Feature */
@@ -141,18 +143,102 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  padding: 20px;
 }
 .accordion {
-  background: green;
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin-top: 16px;
 }
 .acoridio_header {
+  background: rgba(51, 49, 49, 0.4);
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+}
+.accordion_body {
+  background: rgba(51, 49, 49, 0.2);
+  padding: 25px;
+  font-size: 20px;
+  text-align: justify;
+}
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.para {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 70%;
+  gap: 10px;
+}
+
+/* footer */
+.footer {
+  background: black;
+  padding: 36px;
+}
+.links {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link1 a {
+  color: aliceblue;
+}
+.link2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link2 a {
+  color: aliceblue;
+}
+.link3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link3 a {
+  color: aliceblue;
+}
+.optionBtn1 {
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.895);
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  margin-bottom: 20px;
+}
+.optionBtn1 select {
+  width: 90px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: whitesmoke;
+}
+.copytright {
+  font-size: 20px;
 }
