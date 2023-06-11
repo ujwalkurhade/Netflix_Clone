@@ -19,6 +19,7 @@ function Qustionsection() {
           <div className="accordion" key={e.id}>
             <div className=" acoridio_header">
               <h2 onClick={handlClick}>{e.title}</h2>
+              <p>😊</p>
             </div>
 
             {open ? (
@@ -29,6 +30,11 @@ function Qustionsection() {
           </div>
         );
       })}
+
+      <p>
+        Ready to watch? Enter your email to create or
+        restart your membership.
+      </p>
     </div>
   );
 }
