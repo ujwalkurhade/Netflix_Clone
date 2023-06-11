@@ -24,5 +24,33 @@
       "h2": "Create profiles for kids",
       "p": "Send children on adventures with their favourite characters in a space made just for them—free with your membership."
     }
+  ],
+  "data2": [
+    {
+      "id": 1,
+      "title": "What is Netflix?",
+      "desc": "Netflix is a streaming service that offers a wide variety of award-winning TV shows movies anime documentaries and more on thousands of internet-connected devices.{<br>} You can watch as much as you wan whenever you want without a single ad  all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!"
+    },
+    { "id": 2, "title": "", "desc": "" },
+    {
+      "id": 3,
+      "title": "",
+      "desc": ""
+    },
+    {
+      "id": 4,
+      "title": "",
+      "desc": ""
+    },
+    {
+      "id": 5,
+      "title": "",
+      "desc": ""
+    },
+    {
+      "id": 6,
+      "title": "",
+      "desc": ""
+    }
   ]
 }
