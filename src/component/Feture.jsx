@@ -10,14 +10,14 @@ function Feture() {
     setdata1(data.data);
   }, []);
   return (
-    <div className="feture">
+    <div>
       {data1.map((e) => {
         return (
-          <>
+          <div className="feture">
             <h2> {e.h2}</h2>
             <p>{e.p}</p>
             <img src={e.img}></img>
-          </>
+          </div>
         );
       })}
     </div>
