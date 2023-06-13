@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import data from "../data.json";
+import items from "../data.json";
 
 function Feture() {
-  const [data1, setdata1] = useState([]);
+  const [data, setdata] = useState([]);
 
   useEffect(() => {
-    setdata1(data.data);
+    setdata(items.data);
   }, []);
   return (
     <div>
-      {data1.map((e) => {
+      {data.map((e) => {
         return (
           <div className="feture" key={e.id}>
             <h2> {e.h2}</h2>

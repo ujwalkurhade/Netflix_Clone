@@ -2,25 +2,25 @@
   "data": [
     {
       "id": 1,
-      "img": "./assets/Images/tv.png",
+      "img": "./Images/tv.png",
       "h2": "Enjoy on your TV",
       "p": "Watch on smart TVs, PlayStation Xbox Chromecas Apple TV Blu-ray players and more."
     },
     {
       "id": 2,
-      "img": "./assets/Images/mobile-0819.jpg",
+      "img": "./Images/mobile-0819.jpg",
       "h2": "Download your shows to watch offline",
       "p": "Save your favourites easily and always have something to watch."
     },
     {
       "id": 3,
-      "img": "./assets/Images/device-pile-in.png",
+      "img": "./Images/device-pile-in.png",
       "h2": "Watch everywhere",
       "p": "Stream unlimited movies and TV shows on your phone tablet laptop and TV."
     },
     {
       "id": 4,
-      "img": "./assets/Images/fec4.png",
+      "img": "./Images/fec4.png",
       "h2": "Create profiles for kids",
       "p": "Send children on adventures with their favourite characters in a space made just for them—free with your membership."
     }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import data from "../data.json";
 import SatartBtn from "./SatartBtn";
+import Accrodion from "./Accrodion";
 function Qustionsection() {
   const [open, setOpen] = useState(false);
   const [data2, setdata2] = useState([]);
@@ -14,26 +15,9 @@ function Qustionsection() {
   return (
     <div className="qustion">
       <h2>Frequently Asked Questions</h2>
-      {data2.map((e) => {
+      {data2.map((e, index) => {
         console.log(e);
-        return (
-          <div className="accordion">
-            <div
-              className=" acoridio_header"
-              onClick={handlClick}
-              key={e.id}
-            >
-              <h2>{e.title}</h2>
-              {open ? <p>× </p> : <p>+</p>}
-            </div>
-
-            {open ? (
-              <div className="accordion_body">
-                <p>{e.desc}</p>
-              </div>
-            ) : null}
-          </div>
-        );
+        return <Accrodion desc={e.desc} title={e.title} />;
       })}
       <div className="text">
         <p className="para">

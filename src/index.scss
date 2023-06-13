@@ -15,7 +15,7 @@ body {
       rgba(0, 0, 0, 0) 60%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("./assets/Images/HeroBG.jpg");
+    url("../public/Images/HeroBG.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -25,7 +25,7 @@ body {
 	margin-bottom: -12px;
 	filter: blur(100% rgba(0, 0, 0, 0.811));
 	margin-bottom: 10px;
-
+ 
 }
 .nav {
 	display: flex;
@@ -34,7 +34,7 @@ body {
 }
 .logo {
 	width: 130px;
-}
+}b  
 .rightnav {
 	display: flex;
 	justify-content: center;
