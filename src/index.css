@@ -17,7 +17,7 @@ body {
       rgba(0, 0, 0, 0) 60%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("./assets/Images/HeroBG.jpg");
+    url("./assets/HeroBG.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
